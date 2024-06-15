@@ -15,5 +15,3 @@ Create a console application that can read a file and count the number of charac
 ## Task 4: Tic Tac Toe Game
 
 Create a Tic Tac Toe game where the number of user wins is stored in a text file. The game should retrieve the win count from the file and display it to the user.
-
-Please refer to the individual task folders for more details and instructions.
