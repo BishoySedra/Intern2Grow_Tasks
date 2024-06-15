@@ -1,5 +1,5 @@
 // This is the header file for the Area class. This class contains the function prototypes for the Area class.
-
+#pragma once
 #ifndef AREA_H
 #define AREA_H
 
