@@ -31,9 +31,11 @@ int main()
         }
 
         string line;
+        int words = 0;
+        // now let's count the number of words in the text file and store the text in a string variable
         while (getline(inputFile, line))
         {
-            cout << line << "\n";
+            words++;
         }
 
         inputFile.close();
@@ -60,8 +62,6 @@ int main()
 
         cout << "Number of characters: " << characters << "\n";
 
-        // now let's count the number of words
-        int words = 0;
         for (char c : line)
         {
             if (isspace(c))
